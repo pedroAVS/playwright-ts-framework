@@ -1,0 +1,16 @@
+{
+  "name": "playwright-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "menu-test": "npx playwright test tests/home"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.1"
+  }
+}
